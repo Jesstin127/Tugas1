@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    return view('welcome');
+});
+
 Route::get('/welcome', function () {
     return view('welcome');
 });
@@ -31,4 +35,8 @@ Route::get('/contact', function () {
 
 Route::get('/tes', function () {
     return view('tes');
+});
+
+Route::get('/lihatkrs', function () {
+    return view('lihatkrs');
 });

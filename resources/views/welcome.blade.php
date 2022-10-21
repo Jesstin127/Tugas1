@@ -63,6 +63,7 @@
                     <li><a href="about">About</a></li>
                     <li><a href="education">Education & Experiences</a></li>
                     <li><a href="contact">Contact</a></li>
+                    <li><a href="lihatkrs">Lihat KRS</a></li>
                 </ul>
             </nav>
 
