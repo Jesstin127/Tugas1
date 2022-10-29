@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en" class="no-js" >
 <head>
 
@@ -140,7 +140,7 @@
                     <td><h4 style = 'color: white'>Jumlah SKS</h4></td>
                     <?php
                     $total=0;
-                    $id=1;
+                    $id=1;--
                     while($id<7){                    
                         $temp = $total + DB::table('matakuliah')->where('id_matakuliah',$id)->value('sks');
                         $total = $temp;
@@ -212,4 +212,4 @@
     <script src="js/main.js"></script>
 
 </body>
-</html>
+</html> --}}

@@ -40,3 +40,7 @@ Route::get('/tes', function () {
 Route::get('/lihatkrs', function () {
     return view('lihatkrs');
 });
+
+Route::get('/krsjesstin', function () {
+    return view('krsjesstin');
+});
